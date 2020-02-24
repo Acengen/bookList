@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container p-3 bg-muted">
+        <h2>Book List</h2>
+        <form class="book-list">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div>
+                <label for="title">Author</label>
+                <input type="text" id="author" class="form-control">
+            </div>
+            <div>
+                <label for="title">ISBN#</label>
+                <input type="text" id="isbn" class="form-control">
+            </div>
+            <div>
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+        <hr>
+        <table class="tb">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="body">
+            </tbody>
+        </table>
+        <img src="giphy.gif" alt="" class="loading dont">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
